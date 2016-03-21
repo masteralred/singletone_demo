@@ -9,11 +9,6 @@ class Logger
     return @@x
   end
 
-  # class Method
-  def self.say_something
-    puts "haha"
-  end
-
   #instance Method
   def log_something what
     @file.puts what
