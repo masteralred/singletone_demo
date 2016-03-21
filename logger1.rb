@@ -6,8 +6,8 @@ class Logger
     @file = File.open 'log.txt', 'a'
   end
 
-  def log_something data
-    @file.puts data
+  def log param
+    @file.puts param
     @file.flush
   end
 end
